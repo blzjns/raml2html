@@ -1,0 +1,109 @@
+{
+  "_args": [
+    [
+      {
+        "name": "raml2html",
+        "raw": "raml2html",
+        "rawSpec": "",
+        "scope": null,
+        "spec": "latest",
+        "type": "tag"
+      },
+      ""
+    ]
+  ],
+  "_from": "raml2html@latest",
+  "_id": "raml2html@3.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/raml2html",
+  "_nodeVersion": "6.5.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/raml2html-3.0.1.tgz_1474047435713_0.21048474451527"
+  },
+  "_npmUser": {
+    "email": "info@mixedcase.nl",
+    "name": "mixedcase"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "raml2html",
+    "raw": "raml2html",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/raml2html/-/raml2html-3.0.1.tgz",
+  "_shasum": "6aa79aa0983ea3c4a07f017751c7813829a65218",
+  "_shrinkwrap": null,
+  "_spec": "raml2html",
+  "_where": "",
+  "author": {
+    "email": "info@mixedcase.nl",
+    "name": "Kevin Renskers"
+  },
+  "bin": {
+    "raml2html": "./bin/raml2html"
+  },
+  "bugs": {
+    "url": "https://github.com/raml2html/raml2html/issues"
+  },
+  "dependencies": {
+    "commander": "2.9.x",
+    "marked": "0.3.x",
+    "minimize": "2.0.x",
+    "nunjucks": "2.4.x",
+    "nunjucks-markdown": "2.0.x",
+    "raml-jsonschema-expander": "1.1.x",
+    "raml2obj": "3.0.0"
+  },
+  "description": "RAML to HTML documentation generator",
+  "devDependencies": {
+    "eslint": "3.4.x",
+    "eslint-config-loopwerk": "4.2.x"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "6aa79aa0983ea3c4a07f017751c7813829a65218",
+    "tarball": "https://registry.npmjs.org/raml2html/-/raml2html-3.0.1.tgz"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "gitHead": "e8db63cb9fab4c961278d7dd1d86c3523c19dab8",
+  "homepage": "https://github.com/raml2html/raml2html",
+  "keywords": [
+    "RAML"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "me@mikestowe.com",
+      "name": "mikestowe"
+    },
+    {
+      "email": "info@mixedcase.nl",
+      "name": "mixedcase"
+    }
+  ],
+  "name": "raml2html",
+  "optionalDependencies": {},
+  "preferGlobal": "true",
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/raml2html/raml2html.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lintfix": "eslint . --fix"
+  },
+  "version": "3.0.1"
+}
